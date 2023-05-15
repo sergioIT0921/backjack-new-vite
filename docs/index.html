@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" crossorigin src="/assets/index-74cfa28b.js"></script>
+    <link rel="stylesheet" href="/assets/index-b1b2eb08.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="juego">
+          <header class="header">
+              <h2 class="title">BlackJack</h2>
+          </header>
+          <main class="main">
+              <div class="juego__container">
+
+                  <article class="botones">
+                      <button class="botones__btn botones__btn--1" id="btnNuevo">Nuevo Juego</button>
+                      <button class="botones__btn botones__btn--2" id="btnPedir">Pedir Carta</button>
+                      <button class="botones__btn botones__btn--3" id="btnDetener">Detener</button>
+                  </article>
+                  <div class="jugador"> 
+
+                      <article class="jugador__container jugador__1">
+                          <h1 class="jugador__nombre" id="usuario">
+                              Jugador 1 - <small> 0 </small>
+                          </h1>
+                          <div class="jugador__cartas" >
+                              <figure class="jugador__picture" id="usuario-cartas">
+                                                                
+                              </figure>
+                          </div>
+                      </article>
+
+                      <article class="jugador__container jugador__2">
+                          <h1 class="jugador__computadora" id="computadora">
+                              Computadora - <small> 0 </small>
+                          </h1>
+                          <div class="jugador__cartas" >
+                              <figure class="jugador__picture" id="computadora-cartas">
+                              </figure>
+                          </div>
+                      </article>
+                  </div>
+              </div>
+          </main>
+          <footer class="footer">
+              <p class="title title--footer">Desarrollado por Sergio Castro</p>
+          </footer>
+
+      </div>
+  </div>
+
+    <div id="app"></div>
+    
+  </body>
+</html>
